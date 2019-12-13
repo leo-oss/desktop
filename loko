@@ -1,0 +1,14 @@
+#include <stdio.h>
+  int main()
+{
+    int frut = 0;
+    int ban = 0;
+    int fruti = 0;
+    printf("ingrese la cantidad de banana");
+    scanf("%i", & ban);
+    printf("ingrese la cantidad de frutillas");
+    scanf("%i", & fruti);
+    frut = (ban + fruti);
+    printf("la cantidad de frutas es %i", frut);
+    system("pause");
+  }
